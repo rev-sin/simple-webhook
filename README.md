@@ -1,7 +1,7 @@
 Install Libs/Packages
 
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 Run/Serve User Portal in seperate shell
