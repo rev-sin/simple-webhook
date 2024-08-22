@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        a { text-decoration: none; color: #007BFF; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <h1>Order Confirmation</h1>
+    <p>Thank you for your order!</p>
+    <p>Order ID: {{ order.order_id }}</p>
+    <p>Product ID: {{ order.product_id }}</p>
+    <p>Quantity: {{ order.quantity }}</p>
+    <p>Total Amount: ${{ order.amount }}</p>
+
+    <a href="/">Back to Home</a>
+</body>
+</html>
